@@ -1,24 +1,16 @@
-# its-homework-app
+# Ralph's Vue Demo
 
-## Project setup
-```
-npm install
-```
+## Project description
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is a simple Vue.js app created with the [vue-cli]() tool. The index page contains an input box where the user can type some text
+which will automatically be displayed in upper case in the box below.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Running locally
 
-### Lints and fixes files
-```
-npm run lint
-```
+In order to run the app locally the following steps must be taken
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- `git clone` the repository into a directory
+- Navigate into the directory and run `npm install` if using npm or `yarn install` if using yarn
+- Once installation of all necessary dependencies has been completed, run `npm run serve` if using npm or `yarn serve` if using yarn
+
+In the output of the terminal where the `serve` command was executed will be a link to the app which can be navigated to in your browser.
