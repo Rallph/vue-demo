@@ -1,17 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <h1>Ralph's Vue Demo</h1>
+    <h3>
+      Enter text in the box below and it will automatically
+      appear below it in upper case.
+    </h3>
+
+    <input v-model="data">
+
+    <p class="upper-case-output" v-text="data.toUpperCase()"></p>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data: function () {
+    return {
+      data : "Type Something!"
+    }
   }
 }
 </script>
@@ -22,7 +32,21 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #1cb3c8;
   margin-top: 60px;
+  
 }
+
+.upper-case-output {
+  border: 2px solid #738598;
+  padding: 1.5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 1%;
+}
+
+body {
+  background-color: #3c415e;
+}
+
 </style>
