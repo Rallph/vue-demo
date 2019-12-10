@@ -2,7 +2,7 @@
 
 ## Project description
 
-This is a simple Vue.js app created with the [vue-cli]() tool. The index page contains an input box where the user can type some text
+This is a simple Vue.js app created with the [vue-cli](https://cli.vuejs.org/) tool. The index page contains an input box where the user can type some text
 which will automatically be displayed in upper case in the box below.
 
 A live version of the app hosted with Heroku can be visited [here](https://salty-beyond-43499.herokuapp.com/)
